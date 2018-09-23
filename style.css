@@ -1,0 +1,214 @@
+body{
+    height:100%;
+    width:100%;
+}
+svg{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -124px; /*set to a negative number 1/2 of your height*/
+    margin-left: -132.5px; /*set to a negative number 1/2 of your width*/
+}
+.c1{
+    position: fixed;
+    margin: auto;
+    top:50%;
+    left:50%;
+    border-radius: 50%;
+    border-width: 3px;
+    border: dotted;
+    color: turquoise;
+    width: 36px;
+    height: 36px;
+    margin-left: -18px;
+    margin-top: 120px;
+}
+.c2{
+    position: fixed;
+    margin: auto;
+    top:50%;
+    left:50%;
+    border-radius: 50%;
+    border-width: 3px;
+    border: dotted;
+    color: turquoise;
+    width: 40px;
+    height: 40px;
+    margin-left: -20px;
+    margin-top: 118px;
+}
+.cont{
+    border: solid;
+    color: #E84855;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #111017;
+    border-radius: 10em;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    position: fixed;
+    margin-top: -50px;
+    margin-left: -75px;
+    z-index: 15;
+    transition: 10;
+    opacity: 0;
+    cursor: pointer;
+}
+.cont:hover{
+    z-index:20;
+    background-color: #191825;
+}
+.hide{
+    display:none;
+}
+.welcome{
+    font-size: 9vmin;
+    color: #E84855;
+    font-family: 'Bungee Inline', cursive;
+    text-align: center;
+    position: fixed;
+    padding-top: 1%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+/* number */
+.numbers{
+    display: fixed;
+    color: #E84855;
+    font-size: 35px;
+    left:50%;
+    top: 50%;
+    right:50%;
+    bottom:50%;
+    height: 100%;
+    cursor: pointer;
+}
+.prompt{
+    opacity: 0;
+    top: 10px;
+    margin-top: -200px;
+}
+
+.one:hover{
+   fill: turquoise;
+}
+.two:hover{
+   fill: turquoise;
+}
+.three:hover{
+   fill: turquoise;
+}
+.four:hover{
+   fill: turquoise;
+}
+.five:hover{
+   fill: turquoise;
+}
+.six:hover{
+   fill: turquoise;
+}
+.seven:hover{
+   fill: turquoise;
+}
+.eight:hover{
+   fill: turquoise;
+}
+.nine:hover{
+   fill: turquoise;
+}
+.zero:hover{
+   fill: turquoise;
+}
+
+/* modal */
+.modal{
+    display:none;
+    position: fixed;
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 1;
+    top:0;
+    bottom:0;
+    padding-left: 25%;
+    padding-top: 10%;
+    transition-duration: 0.4s;   
+}
+/*  modal */
+.modal-content{
+    position: fixed;
+    height:50%;
+    width:50%;
+    margin: auto;
+    opacity: 1;
+    background-color: rgba(232,72, 85, 0.9); 
+    padding: 20px;
+    z-index: 30;
+    text-align: center;
+    border-radius: 5em;
+}
+.md-show{
+    display: block;
+    transition-duration: 0.4s;
+}
+#title{
+    font-family: 'Bungee Inline', cursive;
+    font-size: 50px;
+}
+#details{
+    font-size: 20px;
+    
+}
+
+/* The Close Button */
+.close {
+    color: turquoise;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 3%;
+    left:46%;
+}
+.prev{
+    color: turquoise;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    left: 8%;
+    bottom: 3%;
+}
+.next{
+    color: turquoise;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    right: 8%;
+    bottom: 3%;
+}
+
+.close:hover,
+.close:focus {
+    color: #aaaaaa;
+    text-decoration: none;
+    cursor: pointer;
+}
+.prev:hover,
+.prev:focus {
+    color: #aaaaaa;
+    text-decoration: none;
+    cursor: pointer;
+}
+.next:hover,
+.next:focus {
+    color: #aaaaaa;
+    text-decoration: none;
+    cursor: pointer;
+}
+.disable{
+    pointer-events: none;
+}
